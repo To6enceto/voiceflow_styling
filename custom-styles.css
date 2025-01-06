@@ -1,0 +1,74 @@
+/* Customize the chat widget container */
+.vfrc-chat-container {
+    background-color: #f9f9f9; /* Light grey background */
+    border-radius: 10px;       /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Style the header of the chat widget */
+  .vfrc-header {
+    background-color: #4a90e2; /* Brand primary color */
+    color: #ffffff;            /* White text */
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  /* Customize agent messages */
+  .vfrc-system-response .vfrc-message {
+    background-color: #e1f5fe; /* Light blue background */
+    color: #000000;            /* Black text */
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Customize user messages */
+  .vfrc-user-response .vfrc-message {
+    background-color: #c8e6c9; /* Light green background */
+    color: #000000;            /* Black text */
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 10px;
+    align-self: flex-end;      /* Align user messages to the right */
+  }
+  
+  /* Style the input area */
+  .vfrc-input-container {
+    border-top: 1px solid #dddddd;
+    padding: 10px;
+    background-color: #ffffff; /* White background */
+  }
+  
+  /* Style the input field */
+  .vfrc-input-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Style the send button */
+  .vfrc-input-container button {
+    background-color: #4a90e2; /* Brand primary color */
+    color: #ffffff;            /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  /* Change send button color on hover */
+  .vfrc-input-container button:hover {
+    background-color: #357ab8; /* Darker shade of brand color */
+  }
+  
